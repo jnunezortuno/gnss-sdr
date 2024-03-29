@@ -479,7 +479,7 @@ with an older versions), then you will need to install it manually:
 $ git clone --recursive https://github.com/protocolbuffers/protobuf.git
 $ cd protobuf
 $ cmake -DABSL_PROPAGATE_CXX_STD=ON -Dprotobuf_BUILD_TESTS=OFF .
-$ cmake --build --config Release --target install .
+$ cmake --build . --config Release --target install
 $ sudo ldconfig
 ```
 
